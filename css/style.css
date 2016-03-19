@@ -1,0 +1,36 @@
+#high_five {
+    text-align: center;
+    padding-top: 60px;
+    max-width: 320px;
+    margin: auto;
+}
+
+.searchable_list {
+    margin: 60px auto 0 auto;
+    max-width: 320px;
+    background: #33c3f0;
+    border-radius: 5px;
+    border: 1px solid darken(#33c3f0, 20%);
+}
+
+.searchable_list input {
+    width: 100%;
+    margin-bottom: 0;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.searchable_list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.searchable_list ul li {
+    list-style-type: none;
+    margin: 0;
+    color: #fff;
+    padding: 10px;
+}
+
+.searchable_list ul li:hover {
+    background: #1eaedb;
+}
